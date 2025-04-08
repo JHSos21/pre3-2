@@ -7,4 +7,9 @@ public class GameStart : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void GameReset()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
